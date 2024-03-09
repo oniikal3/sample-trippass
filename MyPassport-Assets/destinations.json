@@ -1,0 +1,93 @@
+[
+    {
+        "provinceId": 1,
+        "province": "Chiang Rai",
+        "provinceIconImage": "map.circle",
+        "parks": [
+            {
+                "id": 1,
+                "name": "Khun Chae National Park",
+                "description": "Khun Chae National Park is a sprawling expanse of natural beauty nestled in the heart of Chiang Rai province. It boasts a diverse range of ecosystems, from lush rainforests to towering mountains, providing sanctuary to a plethora of plant and animal species. Visitors can embark on unforgettable adventures, hiking through pristine wilderness, discovering hidden waterfalls, and encountering exotic wildlife along the way. The park is also rich in cultural heritage, with indigenous communities preserving age-old traditions and offering immersive experiences for travelers seeking authentic encounters. With its breathtaking landscapes and abundant biodiversity, Khun Chae National Park is a haven for nature lovers and adventurers alike, promising unforgettable memories and moments of serenity in the embrace of Thailand's natural splendor.",
+                "imageURLs": [
+                    "https://firebasestorage.googleapis.com/v0/b/trippass-7dd2b.appspot.com/o/khun_chae_01.jpg?alt=media&token=131c4f57-d127-4153-abf7-77d470ce48f2"
+                ],
+                "latitude": 19.851389,
+                "longitude": 99.4775,
+                "achievedDate": "2024-01-01"
+            },
+            {
+                "id": 2,
+                "name": "Doi-Luang National Park",
+                "description": "Doi-Luang National Park is a magnificent natural wonderland located in Chiang Rai province, beckoning adventurers with its rugged terrain and awe-inspiring beauty. Encompassing vast expanses of pristine forests, dramatic cliffs, and cascading waterfalls, the park offers endless opportunities for exploration and discovery. Hikers can traverse scenic trails that wind through lush vegetation, ascending to panoramic viewpoints that offer breathtaking vistas of the surrounding landscapes. Wildlife enthusiasts will delight in the park's rich biodiversity, encountering rare species of flora and fauna along their journey. Additionally, Doi-Luang National Park holds cultural significance as a sacred site for local communities, who maintain ancient traditions and rituals amidst the wilderness. Whether seeking adrenaline-fueled adventures or tranquil moments of contemplation, visitors to Doi-Luang National Park are sure to be captivated by its natural splendor and timeless charm.",
+                "imageURLs": [
+                    "https://firebasestorage.googleapis.com/v0/b/trippass-7dd2b.appspot.com/o/doi_luang_01.jpeg?alt=media&token=a0554fa7-c4c2-4d83-a6ff-3851adaab626"
+                ],
+                "latitude": 20.0889,
+                "longitude": 99.3694,
+                "achievedDate": "2024-01-01"
+            }
+        ]
+    },
+    {
+        "provinceId": 2,
+        "province": "Chiang Mai",
+        "provinceIconImage": "map.circle",
+        "parks": [
+            {
+                "id": 3,
+                "name": "Si Lanna National Park",
+                "description": "Si Lanna National Park is a sanctuary of tranquility and natural beauty nestled in the picturesque landscapes of Chiang Mai province. Spanning vast expanses of pristine wilderness, the park is renowned for its lush forests, crystal-clear streams, and breathtaking mountain vistas. Visitors can embark on immersive adventures, trekking through dense foliage, and encountering a diverse array of plant and animal species along the way. The park's pristine waterways offer opportunities for swimming, fishing, and picnicking, allowing visitors to connect with nature in a serene and rejuvenating environment. Additionally, Si Lanna National Park holds cultural significance as a sacred site for local communities, who have inhabited the region for generations and continue to preserve their ancestral traditions amidst the wilderness. Whether seeking outdoor adventures or moments of tranquility amidst nature, Si Lanna National Park offers an unforgettable experience for visitors of all ages.",
+                "imageURLs": [
+                    "https://firebasestorage.googleapis.com/v0/b/trippass-7dd2b.appspot.com/o/huay_nam_dang_01.jpeg?alt=media&token=32d3ddbf-c4a6-491b-bb0b-58832828d4a7"
+                ],
+                "latitude": 18.9794,
+                "longitude": 98.4378,
+                "achievedDate": "2024-01-01"
+            },
+            {
+                "id": 4,
+                "name": "Doi Pha Hom Pok National Park",
+                "description": "Doi Pha Hom Pok National Park is a hidden gem nestled in the rugged landscapes of Chiang Mai province, offering a pristine wilderness experience for adventurous travelers. Encompassing towering mountains, dense forests, and cascading waterfalls, the park is a paradise for nature lovers and outdoor enthusiasts. Visitors can embark on exhilarating hikes along scenic trails, encountering rare wildlife and endemic plant species along the way. The park's diverse ecosystems provide habitat for a multitude of species, including elusive mountain goats and colorful bird species, making it a haven for wildlife enthusiasts and photographers alike. Additionally, Doi Pha Hom Pok National Park is home to several indigenous communities, who maintain traditional lifestyles and cultural practices amidst the wilderness. Whether exploring remote valleys or summiting majestic peaks, visitors to Doi Pha Hom Pok National Park are sure to be enchanted by its natural beauty and timeless charm.",
+                "imageURLs": [
+                    "https://firebasestorage.googleapis.com/v0/b/trippass-7dd2b.appspot.com/o/doi_pha_hom_pok_01.jpeg?alt=media&token=93eb8eac-6c44-4ed4-b199-cd14f3865ac2",
+                    "https://firebasestorage.googleapis.com/v0/b/trippass-7dd2b.appspot.com/o/doi_pha_hom_pok_02.jpeg?alt=media&token=140bd062-a74e-4325-9527-67bdda354133",
+                    "https://firebasestorage.googleapis.com/v0/b/trippass-7dd2b.appspot.com/o/doi_pha_hom_pok_03.jpeg?alt=media&token=06fa6fee-3766-44e4-bb8a-4ecd0731b906"
+                ],
+                "latitude": 20.3300,
+                "longitude": 99.0800,
+                "achievedDate": "2024-01-01"
+            }
+        ]
+    },
+    {
+        "provinceId": 3,
+        "province": "Khon Kaen",
+        "provinceIconImage": "map.circle",
+        "parks": [
+            {
+                "id": 5,
+                "name": "Nam Phong National Park",
+                "description": "Nam Phong National Park is a hidden oasis of natural beauty located in the heart of Khon Kaen province, offering visitors a tranquil retreat amidst lush forests and pristine waterways. Encompassing vast expanses of protected wilderness, the park is home to diverse ecosystems teeming with plant and animal life, providing sanctuary to rare and endangered species. Visitors can explore scenic hiking trails that wind through dense foliage, discovering hidden waterfalls and panoramic viewpoints along the way. The park's crystal-clear streams and tranquil lakes offer opportunities for swimming, boating, and relaxation, allowing visitors to immerse themselves in the serenity of nature. Additionally, Nam Phong National Park holds cultural significance as a sacred site for local communities, who have long revered the land and its natural wonders. Whether seeking adventure or seeking solace amidst nature, Nam Phong National Park promises an unforgettable experience for visitors of all interests.",
+                "imageURLs": [
+                    "https://firebasestorage.googleapis.com/v0/b/trippass-7dd2b.appspot.com/o/doi_pha_hom_pok_03.jpeg?alt=media&token=06fa6fee-3766-44e4-bb8a-4ecd0731b906",
+                    "https://firebasestorage.googleapis.com/v0/b/trippass-7dd2b.appspot.com/o/nam_phong_02.jpeg?alt=media&token=922d1b70-af85-46fd-a3ff-253c8198ef2b"
+                ],
+                "latitude": 16.8163,
+                "longitude": 102.3347,
+                "achievedDate": "2024-01-01"
+            },
+            {
+                "id": 6,
+                "name": "Phu Pha Man National Park",
+                "description": "Phu Pha Man National Park is a rugged wilderness paradise located in the northeastern province of Khon Kaen, offering visitors a glimpse into Thailand's untouched natural beauty. Spanning vast expanses of pristine forests, towering cliffs, and hidden caves, the park is a haven for outdoor enthusiasts and adventure seekers. Visitors can embark on thrilling hikes along scenic trails, exploring rugged terrain and encountering a diverse array of plant and animal species along the way. The park's dramatic landscapes provide breathtaking vistas of the surrounding countryside, making it a paradise for photographers and nature lovers alike. Additionally, Phu Pha Man National Park is home to several ancient archaeological sites, including prehistoric cave paintings and rock formations, offering insight into the region's rich cultural heritage. Whether exploring remote valleys or marveling at ancient rock art, visitors to Phu Pha Man National Park are sure to be captivated by its natural splendor and timeless allure.",
+                "imageURLs": [
+                    "https://firebasestorage.googleapis.com/v0/b/trippass-7dd2b.appspot.com/o/phu_pha_man_01.jpeg?alt=media&token=7e397b08-1011-4a80-8532-195237f9613e",
+                    "https://firebasestorage.googleapis.com/v0/b/trippass-7dd2b.appspot.com/o/phu_pha_man_02.jpeg?alt=media&token=ad240782-54b8-4720-9d7b-d6ffd77f3256"
+                ],
+                "latitude": 16.9827,
+                "longitude": 102.1955,
+                "achievedDate": "2024-01-01"
+            }
+        ]
+    }
+]

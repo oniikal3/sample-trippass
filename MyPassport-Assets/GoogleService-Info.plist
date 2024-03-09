@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyA7k6_fV8qTm-DN2axBk_p4Rb-R5sQTvhQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>619300418154</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.nathapong.class2024.cls24-mypassport</string>
+	<key>PROJECT_ID</key>
+	<string>trippass-7dd2b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>trippass-7dd2b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:619300418154:ios:0297a220087c6345449013</string>
+</dict>
+</plist>

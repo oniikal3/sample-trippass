@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "15FC35AC-7ED4-48D0-983A-788BE144E8A5"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DF5570BA-1288-4153-A3AE-3B7CEE711BEB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cls24_mypassport/Authentication/ViewModels/AuthViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "createUser(withEmail:password:fullname:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DF5570BA-1288-4153-A3AE-3B7CEE711BEB - 5bcb5dedd1b98945"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "cls24_mypassport.AuthViewModel.signOut() -&gt; ()"
+                  moduleName = "cls24_mypassport"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/champ/Workspace/SU/iOS%20course%202024/sample/cls24_mypassport/cls24_mypassport/Authentication/ViewModels/AuthViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "DF5570BA-1288-4153-A3AE-3B7CEE711BEB - 179d27c78d5d3c69"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for cls24_mypassport.AuthViewModel.createUser(withEmail: Swift.String, password: Swift.String, fullname: Swift.String) async throws -&gt; ()"
+                  moduleName = "cls24_mypassport"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/champ/Workspace/SU/iOS%20course%202024/sample/cls24_mypassport/cls24_mypassport/Authentication/ViewModels/AuthViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "1252">
+               </Location>
+               <Location
+                  uuid = "DF5570BA-1288-4153-A3AE-3B7CEE711BEB - 421aa448097f866c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(8) suspend resume partial function for cls24_mypassport.AuthViewModel.createUser(withEmail: Swift.String, password: Swift.String, fullname: Swift.String) async throws -&gt; ()"
+                  moduleName = "cls24_mypassport"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/champ/Workspace/SU/iOS%20course%202024/sample/cls24_mypassport/cls24_mypassport/Authentication/ViewModels/AuthViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  uuid = "DF5570BA-1288-4153-A3AE-3B7CEE711BEB - 3e35683c2050006f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(9) suspend resume partial function for cls24_mypassport.AuthViewModel.createUser(withEmail: Swift.String, password: Swift.String, fullname: Swift.String) async throws -&gt; ()"
+                  moduleName = "cls24_mypassport"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/champ/Workspace/SU/iOS%20course%202024/sample/cls24_mypassport/cls24_mypassport/Authentication/ViewModels/AuthViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "324">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
