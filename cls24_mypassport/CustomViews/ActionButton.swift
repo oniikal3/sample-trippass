@@ -19,12 +19,6 @@ struct ActionButton: View {
     var backgroundColor: BackgroundStyle = .solidColor(.main)
     var textColor: Color = .white
     
-//    init(action: @escaping () -> Void, backgroundColor: BackgroundStyle , textColor: Color ) {
-//        self.action = action
-//        self.backgroundColor = backgroundColor
-//        self.textColor = textColor
-//    }
-    
     var body: some View {
         Button {
             action()

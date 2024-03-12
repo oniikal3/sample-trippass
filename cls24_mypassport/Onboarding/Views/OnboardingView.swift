@@ -43,7 +43,7 @@ struct OnboardingView: View {
             .tabViewStyle(PageTabViewStyle()) 
             .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
             .navigationDestination(isPresented: $startedActionClick) {
-                LoginMethodsView()
+                LoginView()
             }
         }
     }

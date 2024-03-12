@@ -12,7 +12,6 @@ struct FloatingTextField: View {
     var placeHolder: String = ""
     var secureMode: Bool = false
     
-//    @State private var currentValue: String = ""
     @Binding var text: String
     
     var body: some View {

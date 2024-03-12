@@ -30,47 +30,37 @@ struct PassportView: View {
     
     var body: some View {
         NavigationStack {
-//            VStack(alignment: .leading, spacing: 0) {
-//                Text("Passing through \(viewModel.numberOfParkAchieved) destinations")
-//                    .font(.system(size: 16, weight: .medium))
-//                    .padding()
-                
-                List {
-                    ForEach(viewModel.list, id: \.provinceId) { destination in
-                        Section {
-                            ForEach(destination.parks) { park in
-                                ZStack {
-                                    DestinationRowView(park: park)
-                                        .listRowInsets(.init(top: 8, leading: 16, bottom: 8, trailing: 16))
-                                    NavigationLink(value: park) {
-                                        // Do this way because of Apple are not support to remove arrow at the right yet.
-                                    }
-                                    .opacity(0)
-                                    .buttonStyle(PlainButtonStyle())
+            List {
+                ForEach(viewModel.list, id: \.provinceId) { destination in
+                    Section {
+                        ForEach(destination.parks) { park in
+                            ZStack {
+                                DestinationRowView(park: park)
+                                    .listRowInsets(.init(top: 8, leading: 16, bottom: 8, trailing: 16))
+                                NavigationLink(value: park) {
+                                    // Do this way because of Apple are not support to remove arrow at the right yet.
                                 }
-                            }
-                            .listRowSeparator(.hidden)
-
-                        } header: {
-                            HStack {
-                                Image(destination.provinceIconImage)
-                                Text(viewModel.sectionOfDestination(destination))
+                                .opacity(0)
+                                .buttonStyle(PlainButtonStyle())
                             }
                         }
-                        .listSectionSeparator(.hidden)
+                        .listRowSeparator(.hidden)
+                        
+                    } header: {
+                        HStack {
+                            Image(destination.provinceIconImage)
+                            Text(viewModel.sectionOfDestination(destination))
+                        }
                     }
+                    .listSectionSeparator(.hidden)
                 }
-                .listStyle(.plain)
-                .safeAreaPadding(.bottom, 50)
-//                .padding(.bottom, 20)
-//                .safeAreaInset(edge: .bottom, spacing: 50, content: {
-//                    Text("Shit")
-//                })
-//            }
+            }
+            .listStyle(.plain)
+            .safeAreaPadding(.bottom, 50)
             .navigationTitle("Achieved")
             .navigationDestination(for: ParkAchieved.self) { selectedPark in
                 DestinationDetailView(viewModel: viewModel, park: selectedPark)
-                    
+                
             }
         }
     }
@@ -78,4 +68,4 @@ struct PassportView: View {
 
 #Preview {
     PassportView()
-} 
+}

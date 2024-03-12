@@ -7,8 +7,6 @@
 
 import Foundation
 
-// ให้ ChatGPT gen ข้อมูลมาให้
-
 struct NationalPark {
 //    let nationalParkId: Int
     let imageURL: String

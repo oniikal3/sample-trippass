@@ -32,44 +32,6 @@ struct DestinationRowView: View {
         
     }
     
-    //    var body: some View {
-    //        VStack {
-    //            Spacer()
-    //            HStack (alignment: .bottom) {
-    //                VStack (alignment: .leading) {
-    //                    Text(park.name)
-    //                        .foregroundStyle(.white)
-    //                        .font(.system(size: 32, weight: .bold))
-    //                        .multilineTextAlignment(.leading)
-    //
-    //                    Text(park.achievedDate.formatted())
-    //                        .foregroundStyle(.white)
-    //                }
-    //
-    //                Spacer()
-    //
-    //                Image(systemName: "arrow.forward")
-    //                    .resizable()
-    //                    .scaledToFit()
-    //                    .frame(width: 30, height: 30)
-    //                    .foregroundStyle(.white)
-    //                    .padding(.horizontal, 30)
-    //                    .padding(.vertical, 16)
-    //                    .background(
-    //                        RoundedRectangle(cornerRadius: 20.0)
-    //                            .fill(.gray.opacity(0.5))
-    //                    )
-    //
-    //            }
-    //            .padding(.horizontal)
-    //            .background(.green)
-    //        }
-    //        .background(
-    //            backgroundView
-    //        )
-    //        //            .frame(height: 250)
-    //    }
-    
     var body: some View {
         ZStack(alignment: .bottomLeading) {
             backgroundView

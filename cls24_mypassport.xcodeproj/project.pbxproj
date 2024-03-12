@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		14A725762B78EE490068F994 /* LoginMethodsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A725752B78EE490068F994 /* LoginMethodsView.swift */; };
-		14A725782B78F1800068F994 /* LoginMethodButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A725772B78F1800068F994 /* LoginMethodButton.swift */; };
+		14A725762B78EE490068F994 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A725752B78EE490068F994 /* LoginView.swift */; };
 		14A7257D2B8CEC900068F994 /* FloatingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A7257C2B8CEC900068F994 /* FloatingTextField.swift */; };
 		14A7257F2B8D7E380068F994 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A7257E2B8D7E380068F994 /* ActionButton.swift */; };
 		14A725822B90F3F40068F994 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A725812B90F3F40068F994 /* RegisterView.swift */; };
@@ -68,8 +67,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		14A725752B78EE490068F994 /* LoginMethodsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginMethodsView.swift; sourceTree = "<group>"; };
-		14A725772B78F1800068F994 /* LoginMethodButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginMethodButton.swift; sourceTree = "<group>"; };
+		14A725752B78EE490068F994 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		14A7257C2B8CEC900068F994 /* FloatingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTextField.swift; sourceTree = "<group>"; };
 		14A7257E2B8D7E380068F994 /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
 		14A725812B90F3F40068F994 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
@@ -215,8 +213,7 @@
 			isa = PBXGroup;
 			children = (
 				14A725812B90F3F40068F994 /* RegisterView.swift */,
-				14A725752B78EE490068F994 /* LoginMethodsView.swift */,
-				14A725772B78F1800068F994 /* LoginMethodButton.swift */,
+				14A725752B78EE490068F994 /* LoginView.swift */,
 				14A787802B939B7600E7DD78 /* LoginMethodButton2.swift */,
 			);
 			path = Views;
@@ -479,7 +476,7 @@
 				14A725822B90F3F40068F994 /* RegisterView.swift in Sources */,
 				14A7873D2B932CB200E7DD78 /* CarouselItemView.swift in Sources */,
 				14FC17C82B9247AD00605152 /* MainView.swift in Sources */,
-				14A725762B78EE490068F994 /* LoginMethodsView.swift in Sources */,
+				14A725762B78EE490068F994 /* LoginView.swift in Sources */,
 				14A787962B9AEEC000E7DD78 /* User.swift in Sources */,
 				14FC17D32B93164900605152 /* RecommendView.swift in Sources */,
 				14A787892B98F68F00E7DD78 /* DestinationDetailView.swift in Sources */,
@@ -496,7 +493,6 @@
 				14FC17CF2B92D36200605152 /* PassportView.swift in Sources */,
 				14FBC4B12B7511B300C2BE44 /* OnboardingView.swift in Sources */,
 				14A787812B939B7600E7DD78 /* LoginMethodButton2.swift in Sources */,
-				14A725782B78F1800068F994 /* LoginMethodButton.swift in Sources */,
 				14FBC4B52B75E4A300C2BE44 /* OnboardingItemView.swift in Sources */,
 				14FBC4A22B750F7B00C2BE44 /* ContentView.swift in Sources */,
 				14FBC4A02B750F7B00C2BE44 /* cls24_mypassportApp.swift in Sources */,

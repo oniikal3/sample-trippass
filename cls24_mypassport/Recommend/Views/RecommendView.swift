@@ -30,7 +30,7 @@ struct RecommendView: View {
                     Image(systemName: "map.circle")
                         .resizable()
                         .frame(width: 30, height: 30)
-                    Text(currentScrollIndex == 0 ? "Kanchanaburi" : String(currentScrollIndex ?? 999)) // ให้มาใช้ RecommendData แล้วเอาา currentIndex มาถึงไปแสดงแทน
+                    Text(currentScrollIndex == 0 ? "Kanchanaburi" : String(currentScrollIndex ?? 999)) // ให้มาใช้ RecommendData แล้วเอา currentIndex มาถึงไปแสดงแทน
                         .font(.system(.largeTitle, weight: .bold))
                 })
                 

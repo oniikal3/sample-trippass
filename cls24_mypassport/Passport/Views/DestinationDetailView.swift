@@ -8,13 +8,6 @@
 import SwiftUI
 import MapKit
 
-//class DestinationDetailViewModel {
-//    private var park: ParkAchieved
-//
-//    init(park: ParkAchieved) {
-//        self.park = park
-//    }
-//}
 
 struct DestinationDetailView: View {
     
@@ -22,27 +15,12 @@ struct DestinationDetailView: View {
     // declare viewmodel and send view model in to the view instead of data model.
     var park: ParkAchieved
     
-    //    private var viewModel: DestinationDetailViewModel
-    
-    //    init(park: ParkAchieved) {
-    //        self.park = park
-    //        self.viewModel = DestinationDetailViewModel(park: park)
-    //    }
-    
     @Environment(\.colorScheme) var colorScheme
     
     @State private var selectedImage: Int = 0
     
     private let segments = ["Description", "Location"]
     @State private var selectedTabInfo: String = "Description"
-    
-    //    init(viewModel: DestinationAchievedViewModel, park: ParkAchieved) {
-    //        self.viewModel = viewModel
-    //        self.park = park
-    //
-    //        // Use first image when view loaded
-    //        self.selectedImage = park.imageURLs.count > 0 ? park.imageURLs[0] : ""
-    //    }
     
     //https://www.avanderlee.com/swiftui/viewbuilder/
     @ViewBuilder
@@ -158,7 +136,6 @@ struct DestinationDetailView: View {
     }
     
     var contentScrollView: some View {
-        //        GeometryReader(content: { geometry in
         ScrollView(.vertical) {
             
             Spacer(minLength: 200)
@@ -169,7 +146,7 @@ struct DestinationDetailView: View {
             }
         }
         .scrollIndicators(.hidden)
-        .padding() // Can it change to inset?
+        .padding()
         .background(
             VStack(spacing: 0) {
                 let whiteColors: [Color] = [.white, .white, .white.opacity(0)]
@@ -197,11 +174,6 @@ struct DestinationDetailView: View {
                 BackButton()
             }
         }
-        .onAppear(
-            perform: {
-                //                selectedImage = park.imageURLs.count > 0 ? park.imageURLs[0] : ""
-                //                selectedImage = "https://google.com"
-            })
     }
 }
 

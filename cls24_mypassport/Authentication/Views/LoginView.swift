@@ -1,5 +1,5 @@
 //
-//  LoginMethodsView.swift
+//  LoginView.swift
 //  cls24_mypassport
 //
 //  Created by Nathapong Masathien on 11/2/24.
@@ -11,7 +11,7 @@ enum LoginMethods {
     case email, appleId, google, facebook
 }
 
-struct LoginMethodsView: View {
+struct LoginView: View {
     
     @State private var email: String = ""
     @State private var password: String = ""
@@ -135,7 +135,7 @@ struct LoginMethodsView: View {
     }
 }
 
-extension LoginMethodsView: AuthenticationFormProtocol {
+extension LoginView: AuthenticationFormProtocol {
     var formIsValid: Bool {
         return !email.isEmpty
         && !email.isEmpty
@@ -145,5 +145,5 @@ extension LoginMethodsView: AuthenticationFormProtocol {
 }
 
 #Preview {
-    LoginMethodsView().environment(AuthViewModel())
+    LoginView().environment(AuthViewModel())
 }

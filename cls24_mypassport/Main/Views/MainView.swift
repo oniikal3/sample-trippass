@@ -54,7 +54,8 @@ struct MainView: View {
             }
             Spacer()
         }
-        .frame(width: isActive ? .infinity : 60, height: 60)
+        .frame(height: 60)
+        .frame(maxWidth: isActive ? .infinity : 60)
         .background(isActive ? .main.opacity(0.8) : .clear)
         .clipShape(RoundedRectangle(cornerRadius: 30))
     }

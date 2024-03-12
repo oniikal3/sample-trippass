@@ -16,15 +16,11 @@ protocol AuthenticationFormProtocol {
 @Observable
 class AuthViewModel { // AuthServices
     
-//    var email: String = ""
-//    var password: String = ""
-//    var errorMessage: String = ""
-    
     var userSession: FirebaseAuth.User? //= Auth.auth().currentUser
     var currentUser: User?
     
     init() {
-        // To auto loged in when user has a session.
+        // To auto loged in when user already has a session.
         self.userSession = Auth.auth().currentUser
         
         Task {

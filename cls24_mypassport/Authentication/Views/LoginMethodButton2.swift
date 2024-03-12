@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+typealias LoginMethodButtonAction = () -> Void
+
 struct LoginMethodButton2: View {
     
     var icon: Image
